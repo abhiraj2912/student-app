@@ -19,4 +19,9 @@ export class ApiService {
   searchStudent=(dataToSearch:any)=>{
     return this.http.post("http://localhost:8080/search",dataToSearch)
   }
+
+
+  deleteStudent=(dataToDelete:any)=>{
+    return this.http.post("http://localhost:8080/delete",dataToDelete)
+  }
 }
