@@ -7,6 +7,7 @@ import { StudentAddComponent } from './student-add/student-add.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { RouterModule, Routes } from '@angular/router';
 import { FormsModule } from '@angular/forms';
+import { StudentViewComponent } from './student-view/student-view.component';
 
 const myRoute:Routes=[
   {
@@ -19,7 +20,8 @@ const myRoute:Routes=[
   declarations: [
     AppComponent,
     StudentAddComponent,
-    NavbarComponent
+    NavbarComponent,
+    StudentViewComponent
   ],
   imports: [
     BrowserModule,
